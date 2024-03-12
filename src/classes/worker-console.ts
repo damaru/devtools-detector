@@ -53,7 +53,7 @@ export class WorkerConsole {
       return this.send('table', ...args);
     };
     this.clear = (...args) => {
-      return this.send('clear', ...args);
+      return this.send('log', ...args);
     };
   }
 
